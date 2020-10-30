@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public interface Command {
 
 
+
     /**
      * Abstract method for getting appropriate jsp.
      * @param request request
