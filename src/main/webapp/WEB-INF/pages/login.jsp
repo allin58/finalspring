@@ -27,7 +27,7 @@
    <c:url value="/login?command=changelanguage" var="changelanguageUrl"/>
 
      <div class="container"  style="background-color:#f1f1f1">
-       <H2 style="color: #222222">${cryptocurrencymarket}</H2>
+       <H2 style="color: #111111">${cryptocurrencymarket}</H2>
 
        <FORM action="${changelanguageUrl}" method="post">
            <c:if test="${language=='en'}">
